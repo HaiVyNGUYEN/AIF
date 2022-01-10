@@ -1,7 +1,7 @@
 # AIF
 ├── __ML_DATA__: all the data are stored in this folder  
 ├── __structure.py__: defining the architecture of the neural net   
-├── __train.py__: training model    
+└── __train.py__: training model    
 ### Preliminary step: set up virtual environment to work with python
 Create a virtual environment:
 ```
