@@ -33,7 +33,7 @@ By default, we have:
 - learning_rate=1e-3
 - train_val_split=0.2
 
-So, normally, to executing the file train.py, once you in the virtual environment, you just need to type in the terminal:
+So, normally, for executing the file train.py, once you in the virtual environment, you just need to type in the terminal:
 ```
 python train.py
 ```
