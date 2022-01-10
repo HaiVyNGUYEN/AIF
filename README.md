@@ -21,3 +21,7 @@ Now this environment is empty. We load packages/libraries necessary for our proj
 ```
 pip install -r requirements.txt
 ```
+### Training and predicting
+```
+python train.py --data_path=<PATH_TO_YOUR_DATA_FOLDER> --output_folder=<PATH_TO_OUTPUT_FOLDER> --epochs=<NUMBER_OF_EPOCHS> --batch_size=<BATCH_SIZE> --learning_rate=<LEARNING_RATE> --train_val_split=<RATIO>
+```
