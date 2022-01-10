@@ -26,5 +26,5 @@ pip install -r requirements.txt
 python train.py --data_path=<PATH_TO_YOUR_DATA_FOLDER> --output_folder=<PATH_TO_OUTPUT_FOLDER> --epochs=<NUMBER_OF_EPOCHS> --batch_size=<BATCH_SIZE> --learning_rate=<LEARNING_RATE> --train_val_split=<RATIO>
 ```
 By default, we have:
-- Item 1
+- I
 - Item 2
