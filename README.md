@@ -26,5 +26,13 @@ pip install -r requirements.txt
 python train.py --data_path=<PATH_TO_YOUR_DATA_FOLDER> --output_folder=<PATH_TO_OUTPUT_FOLDER> --epochs=<NUMBER_OF_EPOCHS> --batch_size=<BATCH_SIZE> --learning_rate=<LEARNING_RATE> --train_val_split=<RATIO>
 ```
 By default, we have:
-- I
-- Item 2
+- data_path=Data
+- output_folder=Results
+- epochs=5
+- batch_size=32
+- learning_rate=1e-3
+- train_val_split=0.2
+So, normally, to executing the file train.py, once you in the virtual environment, you just need to type in the terminal:
+```
+python train.py
+```
