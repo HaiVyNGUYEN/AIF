@@ -37,3 +37,8 @@ So, normally, for executing the file train.py, once you in the virtual environme
 ```
 python train.py
 ```
+After execution of this file, it will create output_folder (=Results by default). In this folder, we have following files created:
+-mono_recurrent_model.h5: containing weights after training
+-losses.csv: containing losses of training and validation set over epochs.
+-plot_losses.pdf: containg the plot of training and validation losses
+-Prediction_Kaggle_INSA_MA.csv: the file in good format to be summit on Kaggle
