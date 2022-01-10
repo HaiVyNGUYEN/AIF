@@ -32,6 +32,7 @@ By default, we have:
 - batch_size=32
 - learning_rate=1e-3
 - train_val_split=0.2
+
 So, normally, to executing the file train.py, once you in the virtual environment, you just need to type in the terminal:
 ```
 python train.py
