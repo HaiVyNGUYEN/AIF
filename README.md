@@ -1,11 +1,11 @@
 # AIF
 ├── __Data__: all the data are stored in this folder  
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;└── __X_precip_train.csv__ Each row contains 24 values corresponding to 24 hours of day D-1
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;├── __y_train.csv__ Each row contains 1 value corresponding to cumulative rainfall of day D 
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;├── __X_precip_test.csv__ Similar to __X_precip_train.csv__
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;└── __Id_test.csv__ containing the Id's of test set in the order of __X_precip_test.csv__ 
-├── __structure.py__: defining the architecture of the neural net    
-└── __train.py__: training model and predicting for test set. All the results of training and testing are saved to output_folder (= Results by default)
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;└── __X_precip_train.csv__ Each row contains 24 values corresponding to 24 hours of day D-1  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;├── __y_train.csv__ Each row contains 1 value corresponding to cumulative rainfall of day D   
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;├── __X_precip_test.csv__ Similar to __X_precip_train.csv__  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;└── __Id_test.csv__ containing the Id's of test set in the order of __X_precip_test.csv__   
+├── __structure.py__: defining the architecture of the neural net     
+└── __train.py__: training model and predicting for test set. All the results of training and testing are saved to output_folder (= Results by default) 
 ### Preliminary step: set up virtual environment to work with python
 Create a virtual environment:
 ```
