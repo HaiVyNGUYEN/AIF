@@ -1,6 +1,9 @@
 # AIF
 ├── __Data__: all the data are stored in this folder
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;└── __Number__ (for example, Number=1205)
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;├── __Number__ (for example, Number=1205)  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;├── __Number__ (for example, Number=1205)
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;└── __Number__ (for example, Number=1205)
 ├── __structure.py__: defining the architecture of the neural net   
 └── __train.py__: training model    
 ### Preliminary step: set up virtual environment to work with python
