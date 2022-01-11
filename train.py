@@ -33,7 +33,7 @@ def read_args():
     parser.add_argument("--train_val_split",
                         default=0.2,
                         type=float,
-                        help="learning rate")
+                        help="train/ validation split")
     parser.add_argument("--data_path",
                         default="Data",
                         help="Data set directory")
