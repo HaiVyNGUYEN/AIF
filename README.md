@@ -42,6 +42,7 @@ After execution of this file, it will create output_folder (=Results by default)
 - losses.csv: containing losses of training and validation set over epochs.
 - plot_losses.pdf: containg the plot of training and validation losses
 - Prediction_Kaggle_INSA_MA.csv: the file in good format to be submit on Kaggle
+
 If you do not want to use a parameter as default, for example, epochs:
 ```
 python train.py --epochs=10
